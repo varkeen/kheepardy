@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import org.khee.kheepardygl.Clock?>
+<?import java.util.ArrayList?>
+<Pane prefWidth="1280" prefHeight="800" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1"
+      style="-fx-padding: 0">
+
+    <Clock fx:id="clock" translateY="640"/>
+    <HBox alignment="TOP_CENTER" translateY="672">
+        <GridPane fx:id="boxPlayer1" prefWidth="320" prefHeight="128" style="-fx-background-color: #111">
+            <ImageView fx:id="moodPlayer1" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.rowSpan="2"
+                       GridPane.halignment="CENTER" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" fitWidth="56" fitHeight="56"/>
+            <Label fx:id="namePlayer1" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" GridPane.fillWidth="200"
+                   GridPane.fillHeight="64" textFill="white"/>
+            <Label fx:id="scorePlayer1" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" GridPane.fillWidth="200"
+                   GridPane.fillHeight="64" textFill="#00ff0b"/>
+        </GridPane>
+        <GridPane fx:id="boxPlayer2" prefWidth="320" prefHeight="128" style="-fx-background-color: #222">
+            <ImageView fx:id="moodPlayer2" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.rowSpan="2"
+                       GridPane.halignment="CENTER" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" fitWidth="56" fitHeight="56"/>
+            <Label fx:id="namePlayer2" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" GridPane.fillWidth="200"
+                   GridPane.fillHeight="64" textFill="white"/>
+            <Label fx:id="scorePlayer2" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" GridPane.fillWidth="200"
+                   GridPane.fillHeight="64" textFill="#00ff0b"/>
+        </GridPane>
+        <GridPane fx:id="boxPlayer3" prefWidth="320" prefHeight="128" style="-fx-background-color: #111">
+            <ImageView fx:id="moodPlayer3" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.rowSpan="2"
+                       GridPane.halignment="CENTER" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" fitWidth="56" fitHeight="56"/>
+            <Label fx:id="namePlayer3" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" GridPane.fillWidth="200"
+                   GridPane.fillHeight="64" textFill="white"/>
+            <Label fx:id="scorePlayer3" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" GridPane.fillWidth="200"
+                   GridPane.fillHeight="64" textFill="#00ff0b"/>
+        </GridPane>
+        <GridPane fx:id="boxPlayer4" prefWidth="320" prefHeight="128" style="-fx-background-color: #222">
+            <ImageView fx:id="moodPlayer4" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.rowSpan="2"
+                       GridPane.halignment="CENTER" GridPane.valignment="CENTER" GridPane.vgrow="ALWAYS" fitWidth="56" fitHeight="56"/>
+            <Label fx:id="namePlayer4" GridPane.columnIndex="1" GridPane.rowIndex="0" GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" GridPane.fillWidth="200"
+                   GridPane.fillHeight="64" textFill="white"/>
+            <Label fx:id="scorePlayer4" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.halignment="CENTER"
+                   GridPane.valignment="CENTER" GridPane.hgrow="ALWAYS" GridPane.vgrow="ALWAYS" GridPane.fillWidth="200"
+                   GridPane.fillHeight="64" textFill="#00ff0b"/>
+        </GridPane>
+    </HBox>
+
+    <fx:define>
+        <ArrayList fx:id="playerNames">
+            <fx:reference source="namePlayer1"/>
+            <fx:reference source="namePlayer2"/>
+            <fx:reference source="namePlayer3"/>
+            <fx:reference source="namePlayer4"/>
+        </ArrayList>
+        <ArrayList fx:id="playerMoods">
+            <fx:reference source="moodPlayer1"/>
+            <fx:reference source="moodPlayer2"/>
+            <fx:reference source="moodPlayer3"/>
+            <fx:reference source="moodPlayer4"/>
+        </ArrayList>
+        <ArrayList fx:id="playerScores">
+            <fx:reference source="scorePlayer1"/>
+            <fx:reference source="scorePlayer2"/>
+            <fx:reference source="scorePlayer3"/>
+            <fx:reference source="scorePlayer4"/>
+        </ArrayList>
+        <ArrayList fx:id="playerBoxes">
+            <fx:reference source="boxPlayer1"/>
+            <fx:reference source="boxPlayer2"/>
+            <fx:reference source="boxPlayer3"/>
+            <fx:reference source="boxPlayer4"/>
+        </ArrayList>
+    </fx:define>
+</Pane>
+
+

@@ -1,0 +1,12 @@
+name: "Diagrammtypen"
+answers:
+  - answer: "bild1.png"
+    question: "Was ist ein Ablaufdiagramm?"
+  - answer: "bild2.png"
+    question: "Was ist ein Organigramm?"
+  - answer: "bild3.png"
+    question: "Was ist ein Klassendiagramm?"
+  - answer: "bild4.png"
+    question: "Was ist ein Sequenzdiagramm?"
+  - answer: "bild5.png"
+    question: "Was ist ein Entity-Relationship-Diagramm?"

@@ -1,0 +1,12 @@
+name: "SI Einheiten"
+answers:
+  - answer: "Hz"
+    question: "Was ist die Abkürzung für Hertz? (Was ist die Einheit für Frequenz?)"
+  - answer: "N"
+    question: "Was ist die Abkürzung für Newton? (Was ist die Einheit für Kraft?)"
+  - answer: "C"
+    question: "Was ist die Abkürzung für Coloumb? (Was ist die Einheit für elektische Ladung?)"
+  - answer: "Sv"
+    question: "Was ist die Abkürzung für Sievert? (Was ist die Einheit für Äquivalentdosis?)"
+  - answer: "Wb"
+    question: "Was ist die Abkürzung für Weber? (Was ist die Einheit für magnetischer Fluss?)"

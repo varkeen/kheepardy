@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.Text?>
+<?import org.controlsfx.control.CheckComboBox?>
+<?import java.util.ArrayList?>
+<?import org.khee.kheepardygl.admin.CategoriesView?>
+<AnchorPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="org.khee.kheepardygl.admin.AdminController" prefWidth="800" prefHeight="600">
+
+    <BorderPane AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0">
+        <top>
+            <Text text="Kheepardy Control Center" style="-fx-font-size: 32px" BorderPane.alignment="CENTER">
+                <BorderPane.margin>
+                    <Insets top="10" bottom="10" />
+                </BorderPane.margin>
+            </Text>
+        </top>
+        <center>
+            <CategoriesView fx:id="categoriesView" BorderPane.alignment="CENTER" style="-fx-background-color: green">
+                <BorderPane.margin>
+                    <Insets top="10" bottom="10" left="10" right="10" />
+                </BorderPane.margin>
+            </CategoriesView>
+        </center>
+        <left>
+            <VBox spacing="20">
+                <BorderPane.margin>
+                    <Insets left="10" right="10" />
+                </BorderPane.margin>
+                <Text text="Categories" style="-fx-font-size: 24px" />
+                <CheckComboBox fx:id="categories" title="Pick..." />
+            </VBox>
+        </left>
+        <right>
+            <VBox spacing="20">
+                <BorderPane.margin>
+                    <Insets left="10" right="10" />
+                </BorderPane.margin>
+                <Text text="Players" style="-fx-font-size: 24px" />
+                <TextField fx:id="playerName1" />
+                <TextField fx:id="playerName2" />
+                <TextField fx:id="playerName3" />
+                <TextField fx:id="playerName4" />
+            </VBox>
+        </right>
+        <bottom>
+            <HBox alignment="CENTER" spacing="10">
+                <BorderPane.margin>
+                    <Insets top="10" bottom="10" />
+                </BorderPane.margin>
+                <Button fx:id="unbuzzPlayer" prefWidth="128" prefHeight="64" text="Unbuzz" />
+                <Button fx:id="controlTitle" prefWidth="128" prefHeight="64" text="Start Game" />
+                <Button fx:id="controlBuzzers" prefWidth="128" prefHeight="64" text="Unlock Buzzers" />
+                <Button fx:id="toggleFullscreen" prefWidth="128" prefHeight="64" text="Fullscreen" />
+                <Button fx:id="exitGame" prefWidth="128" prefHeight="64" text="Exit" />
+            </HBox>
+        </bottom>
+    </BorderPane>
+
+    <fx:define>
+        <ArrayList fx:id="playerNames">
+            <fx:reference source="playerName1" />
+            <fx:reference source="playerName2" />
+            <fx:reference source="playerName3" />
+            <fx:reference source="playerName4" />
+        </ArrayList>
+    </fx:define>
+
+</AnchorPane>

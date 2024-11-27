@@ -1,0 +1,12 @@
+name: "Zahlen"
+answers:
+  - answer: "0x100"
+    question: "Was ist die Zahl 256?"
+  - answer: "....- ..---"
+    question: "Was ist 42?"
+  - answer: "MCMLXVII"
+    question: "Was ist 1967?"
+  - answer: "0111 1110 1000"
+    question: "Was ist die Zahl 2024?"
+  - answer: "172 (zur Basis 8)"
+    question: "Was ist die Zahl 122?"

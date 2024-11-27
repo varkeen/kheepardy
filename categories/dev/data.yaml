@@ -1,0 +1,12 @@
+name: "/dev"
+answers:
+  - answer: "Entgegen des Namens werden hier keine Nullen geliefert."
+    question: "Was ist /dev/null?"
+  - answer: "Die Quelle von (mehr oder weniger) zufälligen Daten."
+    question: "Was ist /dev/random (oder urandom)?"
+  - answer: input.jpg
+    question: "Was ist /dev/stdin?"
+  - answer: "Fehler, Fehler und noch mehr Fehler (oder nix, wenn alles gut geht)"
+    question: "Was ist /dev/stderr"
+  - answer: "/dev/fb0"
+    question: "Was ist das (erste) Framebuffer-Device?"

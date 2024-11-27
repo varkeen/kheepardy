@@ -1,0 +1,12 @@
+name: "Kubernetes"
+answers:
+  - answer: "ein Pod"
+    question: "Was ist die kleineste Verwaltungseinheit in Kubernetes?"
+  - answer: "Die Standard-CLI für Kubernetes"
+    question: "Was ist kubectl?"
+  - answer: "Paketmanager zum Verwalten von Kubernetes-Applikationen"
+    question: "Was ist helm?"
+  - answer: "Steuermann"
+    question: "Was bedeutet Kubernetes (κυβερνήτης)  auf Deutsch?"
+  - answer: "Die zentrale Datenhaltung in Kubernetes erfolgt mit diesem Tool."
+    question: "Was ist etcd?"

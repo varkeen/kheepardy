@@ -1,0 +1,12 @@
+name: "Games"
+answers:
+  - answer: "Ein Spiel um den Klempner Mario, der zusammen mit seinem Bruder Luigi Kreaturen besiegen muss, die in der New Yorker Kanalisation ihr Unwesen treiben. "
+    question: "Was ist Mario Brothers?"
+  - answer: "Keine Zitronenlimo, sondern ein Grafikobjekt, das von der Grafikhardware über das Hintergrundbild bzw. den restlichen Inhalt der Bildschirmanzeige eingeblendet wird."
+    question: "Was ist ein Sprite?"
+  - answer: "Sic parvis magna"
+    question: "Was ist das (zugeschriebene) Motto von Sir Francis Drake? (Was ist die Inschrift auf dem Ring von Nathan Drake?)"
+  - answer: "Der Standard-Name für den Helden in den Spielen der Zelda-Reihe."
+    question: "Wer/Was ist Link?"
+  - answer: "Ein Name dessen Ursprung zum Teil von der MS-DOS Version des Bitmap Grafik-Zeichenprogramms Deluxe Paint stammt, dem Werkzeug, mit dem die Künstler den Charakter-Sprite erstellt haben."
+    question: "Wer/Was ist Guybrush?"

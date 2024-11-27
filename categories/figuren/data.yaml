@@ -1,0 +1,12 @@
+name: "Wer hats erschaffen?"
+answers:
+  - answer: "Miss Marple"
+    question: "Was ist eine bekannte Romanfigur von Agatha Christie?"
+  - answer: "Sherlock Holmes"
+    question: "Was ist eine bekannte Romanfigur von Arthur Conan Doyle?"
+  - answer: "Struppi"
+    question: "Was ist eine bekannte Comicfigur von Hergé?"
+  - answer: "Schlümpfe"
+    question: "Was sind bekannte Comicfiguren von Peyo?"
+  - answer: "Marsupilami"
+    question: "Was ist eine bekannte Comicfigur von André Franquin?"

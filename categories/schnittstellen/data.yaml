@@ -1,0 +1,12 @@
+name: "Schnittstellen"
+answers:
+  - answer: "bild1.png"
+    question: "Was ist USB Mini(-A)?"
+  - answer: "bild2.png"
+    question: "Was ist Scart?"
+  - answer: "bild3.png"
+    question: "Was ist XLR?"
+  - answer: "bild4.png"
+    question: "Was ist HDMI?"
+  - answer: "bild5.png"
+    question: "Was ist ein Parallel Port?"

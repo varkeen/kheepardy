@@ -1,0 +1,12 @@
+name: "Kartenspiele"
+answers:
+  - answer: "Sobald die Spieler fünf gleiche Früchte auf den ausgespielten Karten entdecken, schlagen sie schnell auf die Glocke. Aber nur bei genau fünf Früchten, also aufgepasst!"
+    question: "Was ist Halli Galli?"
+  - answer: "In jeder Spielrunde muss eine bestimmte Phase abgeschlossen werden. Wer die Phase abschließt, darf mit der nächsten weitermachen. Alle anderen müssen es erneut versuchen."
+    question: "Was ist Phase 10?"
+  - answer: "Ihr bekommt zehn Handkarten, die ihr möglichst geschickt an eine von vier Kartenreihen anlegt. Wer die sechste Karte legt, muss die ersten fünf Karten nehmen – und das bringt Minuspunkte."
+    question: "Was ist 6 nimmt! ? (Alternativ: Was ist Hornochse?)"
+  - answer: "In diesem magischen Kartenspiel sagt ihr als Zauberlehrlinge vorher, wie erfolgreich ihr abschneiden werdet. Runde um Runde wächst die Herausforderung, da ihr mit immer mehr Karten spielt. Trefft die richtigen Vorhersagen und zeigt allen anderen, wer der weiseste Zauberlehrling ist."
+    question: "Was ist Wizard?"
+  - answer: "Die Spieler bauen verschiedene Bohnensorten auf ihren Feldern an, um die Ernte möglichst profitabel zu verkaufen. Dabei ist es besonders wichtig, möglichst geschickt mit seinen Mitspielern zu handeln."
+    question: "Was ist Bohnanza?"

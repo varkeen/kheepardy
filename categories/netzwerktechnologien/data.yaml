@@ -1,0 +1,12 @@
+name: "Netzwerk-Technologien"
+answers:
+  - answer: "Isolation logischer Interfaces auf einem physischen auf (Layer2)"
+    question: "Was macht man mit einem VLAN?"
+  - answer: "Das Routing-Protokoll für das Internet"
+    question: "Was ist BGP?"
+  - answer: "Isolation von Routing-Tabellen in mehrere Instanzen (Layer3)"
+    question: "Was ist VRF?"
+  - answer: "Übertragung von Layer-2-Traffic als VPN unter Verwendung von WAN-Protokollen"
+    question: "Was ist EVPN-VXLAN?"
+  - answer: "Routing-Strategie mit der Pakete an ein Ziel über mehrere gleichwertige Pfade geschickt werden"
+    question: "Was ist ECMP?"

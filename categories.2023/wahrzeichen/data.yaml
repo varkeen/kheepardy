@@ -1,0 +1,12 @@
+name: "Wahrzeichen"
+answers:
+  - answer: "Eiffelturm"
+    question: "Was ist das Wahrzeichen von Paris?"
+  - answer: "Atomium"
+    question: "Was ist das Wahrzeichen von Brüssel?"
+  - answer: "Kaiserburg"
+    question: "Was ist das Wahrzeichen von Nürnberg?"
+  - answer: "Merlion"
+    question: "Was ist das Wahrzeichen von Singapur?"
+  - answer: "Fossa Carolina"
+    question: "Was ist das Wahrzeichen von Treuchtlingen?"
