@@ -48,10 +48,13 @@ Just put the image file into the same folder as `data.yaml` and set answer to it
 
 Below the admin panel is shown. All actions are performed there.
 
+Add player names to the player input boxes.
+
 All categories will show up in the category selection box.
 
-Just check all categories you want to have in around and hit "Start Game" (which still is "Hide Title"
+Now just check all categories you want to have in around and hit "Start Game" (which still is "Hide Title"
 in this screenshot, oops).
+
 
 ![Kheepardy](kheepardy.png)
 
@@ -72,7 +75,7 @@ That is pretty much all there is to say, as from here on out the game loop repea
 
 ## Knows Issues
 
-# Fonts loading errors
+### Fonts loading errors
 
 At startup there may be errors related to fonts not loading:
 
@@ -103,7 +106,7 @@ java.io.IOException: Stream closed
 
 These do not impact the game experience and can be ognored for now.
 
-## No restart button
+### No restart button
 
 There currently is no button to restart a game.
 
